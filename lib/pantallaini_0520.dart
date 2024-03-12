@@ -7,7 +7,7 @@ class Pantallaini_0520 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Pagina Inicial Ortega"),
+        title: const Text("Pagina Inicial Ortega 0520"),
         backgroundColor: Colors.blueGrey,
       ),
       body: Center(
@@ -18,13 +18,13 @@ class Pantallaini_0520 extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, "/pantalla1_0520");
             }, // fin de onpressed
-            child: const Text("Mover a pantalla 1"),
+            child: const Text("Ejemplo Card 1"),
           ),
           ElevatedButton(
             onPressed: () {
               Navigator.pushNamed(context, "/pantalla2_0520");
             }, // fin de onpressed
-            child: const Text("Mover a pantalla 2"),
+            child: const Text("Ejemplo Card 2"),
           )
         ],
       )),

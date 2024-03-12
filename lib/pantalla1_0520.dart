@@ -9,16 +9,18 @@ class Pantalla1_0520 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pantalla1 Ortega0520'),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Color(0xffff450c),
       ),
       body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {}, // fin onpressed
-              child: const Text("Pantalla1"),
+        child: Card(
+          color: Colors.deepOrange,
+          child: Padding(
+            padding: EdgeInsets.all(20),
+            child: Text(
+              "Tarjeta1 Ortega",
+              style: TextStyle(fontSize: 30, color: Color(0xffffdb74)),
             ),
-          ],
+          ),
         ),
       ),
     );
